@@ -30,10 +30,12 @@ typedef NS_ENUM(NSInteger, ShowMode){
 
 @implementation SLSwipeTableView
 
-- (id)initWithFrame:(CGRect)frame
-{
-    self = [super initWithFrame:frame];
-    if (self) {
+- (id)initWithFrame:(CGRect)frame {
+    return [self initWithFrame:frame style:UITableViewStylePlain];
+}
+
+-(id)initWithFrame:(CGRect)frame style:(UITableViewStyle)style {
+    if(self = [super initWithFrame:frame style:style]){
         UIPanGestureRecognizer *panGestureRecognizer = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(pan:)];
         panGestureRecognizer.delegate = self;
         [self addGestureRecognizer:panGestureRecognizer];
