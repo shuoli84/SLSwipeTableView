@@ -21,6 +21,7 @@
 		9C09FDDB1849EC6A00106513 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C09FDBD1849EC6A00106513 /* UIKit.framework */; };
 		9C09FDE31849EC6A00106513 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9C09FDE11849EC6A00106513 /* InfoPlist.strings */; };
 		9C09FDE51849EC6A00106513 /* SLSwipeTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C09FDE41849EC6A00106513 /* SLSwipeTableViewTests.m */; };
+		9C09FDF01849ECA700106513 /* SLSwipeTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C09FDEF1849ECA700106513 /* SLSwipeTableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		9C09FDE01849EC6A00106513 /* SLSwipeTableViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SLSwipeTableViewTests-Info.plist"; sourceTree = "<group>"; };
 		9C09FDE21849EC6A00106513 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9C09FDE41849EC6A00106513 /* SLSwipeTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLSwipeTableViewTests.m; sourceTree = "<group>"; };
+		9C09FDEE1849ECA700106513 /* SLSwipeTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLSwipeTableView.h; sourceTree = "<group>"; };
+		9C09FDEF1849ECA700106513 /* SLSwipeTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLSwipeTableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				9C09FDCB1849EC6A00106513 /* Main.storyboard */,
 				9C09FDCE1849EC6A00106513 /* ViewController.h */,
 				9C09FDCF1849EC6A00106513 /* ViewController.m */,
+				9C09FDEE1849ECA700106513 /* SLSwipeTableView.h */,
+				9C09FDEF1849ECA700106513 /* SLSwipeTableView.m */,
 				9C09FDD11849EC6A00106513 /* Images.xcassets */,
 				9C09FDC01849EC6A00106513 /* Supporting Files */,
 			);
@@ -200,7 +205,7 @@
 				ORGANIZATIONNAME = "Li Shuo";
 				TargetAttributes = {
 					9C09FDD61849EC6A00106513 = {
-						TestTargetID = 9C09FDB51849EC6A00106513;
+						TestTargetID = 9C09FDB51849EC6A00106513 /* SLSwipeTableView */;
 					};
 				};
 			};
@@ -252,6 +257,7 @@
 				9C09FDD01849EC6A00106513 /* ViewController.m in Sources */,
 				9C09FDCA1849EC6A00106513 /* AppDelegate.m in Sources */,
 				9C09FDC61849EC6A00106513 /* main.m in Sources */,
+				9C09FDF01849ECA700106513 /* SLSwipeTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
